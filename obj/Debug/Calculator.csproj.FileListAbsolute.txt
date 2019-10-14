@@ -1,0 +1,15 @@
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\bin\Debug\Calculator.exe
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\bin\Debug\Calculator.pdb
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\App.g.cs
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\MainWindow.baml
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.exe
+C:\Users\zsolt\source\repos\WPF_MasterClass\Calculator\obj\Debug\Calculator.pdb
