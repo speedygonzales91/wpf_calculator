@@ -20,7 +20,7 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        double lastNumber, result;
+        double lastNumber, result, percentageValue;
         SelectedOperator selectedOperator;
         public MainWindow()
         {
@@ -64,10 +64,15 @@ namespace Calculator
 
         private void PercentageButton_Click(object sender, RoutedEventArgs e)
         {
-            if (double.TryParse(resultLabel.Content.ToString(),out lastNumber))
+            if (double.TryParse(resultLabel.Content.ToString(),out percentageValue))
             {
-                lastNumber = lastNumber / 100;
-                resultLabel.Content = lastNumber.ToString();
+                percentageValue = percentageValue / 100;
+                if (lastNumber != 0)
+                {
+                    percentageValue = lastNumber * percentageValue;
+                }
+               
+                resultLabel.Content = percentageValue.ToString();
             }
         }
 
@@ -108,6 +113,8 @@ namespace Calculator
         private void AcButton_Click(object sender, RoutedEventArgs e)
         {
             resultLabel.Content = "0";
+            result = 0;
+            lastNumber = 0;
         }
 
         private void DecimalButton_Click(object sender, RoutedEventArgs e)
