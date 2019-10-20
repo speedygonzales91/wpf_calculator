@@ -7,13 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="525" Width="350">
 
-    <Window.Resources>
-        <SolidColorBrush x:Key="numbersBackgroundColor" Color="#444444"></SolidColorBrush>
-        <SolidColorBrush x:Key="numbersForeColor" Color="#ffffff"></SolidColorBrush>
-        <SolidColorBrush x:Key="operationsBackgroundColor" Color="Orange"></SolidColorBrush>
-        <SolidColorBrush x:Key="operationsForeColor" Color="#ffffff"></SolidColorBrush>
-    </Window.Resources>
-    
 <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
