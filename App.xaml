@@ -5,8 +5,17 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <SolidColorBrush x:Key="numbersBackgroundColor" Color="#444444"></SolidColorBrush>
-        <SolidColorBrush x:Key="numbersForeColor" Color="#ffffff"></SolidColorBrush>
+        <SolidColorBrush x:Key="ForeColor" Color="#ffffff"></SolidColorBrush>
         <SolidColorBrush x:Key="operationsBackgroundColor" Color="Orange"></SolidColorBrush>
-        <SolidColorBrush x:Key="operationsForeColor" Color="#ffffff"></SolidColorBrush>
+
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="{StaticResource ForeColor}"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="70"></Setter>
+        </Style>
+        
     </Application.Resources>
 </Application>
